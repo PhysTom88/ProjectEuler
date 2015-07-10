@@ -5,5 +5,4 @@ for i in xrange(999, 100, -1):
         prod = i * j
         if str(prod)[::-1] == str(prod):
             l.append(prod)
-            break
 print max(l)
