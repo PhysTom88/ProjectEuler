@@ -9,7 +9,7 @@ def nTriDivisors(n):
     x = 0
     while c < n + 1:
         y = factorial(x) 
-        for z in xrange(1, int(y ** 0.5) + 1):
+        for z in xrange(1, y):
             if y % z == 0:
                 c += 1
                 if c >= n:
